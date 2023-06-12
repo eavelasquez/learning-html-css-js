@@ -1,0 +1,19 @@
+{
+  "name": "learning-html-css-js",
+  "version": "1.0.0",
+  "description": "This is a collection of examples of HTML, CSS, and JavaScript",
+  "workspaces": [
+    "examples"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eavelasquez/learning-html-css-js"
+  },
+  "keywords": [],
+  "author": "Esteban Velasquez <eavc.30@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eavelasquez/learning-html-css-js/issues"
+  },
+  "homepage": "https://github.com/eavelasquez/learning-html-css-js#readme"
+}
