@@ -18,3 +18,4 @@ jspm_packages/
 # Parcel related files
 dist/
 .cache/
+.parcel-cache/
