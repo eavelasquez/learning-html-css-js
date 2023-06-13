@@ -2,6 +2,9 @@
   "name": "learning-html-css-js",
   "version": "1.0.0",
   "description": "This is a collection of examples of HTML, CSS, and JavaScript",
+  "scripts": {
+    "lint": "standard --fix"
+  },
   "workspaces": [
     "examples"
   ],
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/eavelasquez/learning-html-css-js/issues"
   },
-  "homepage": "https://github.com/eavelasquez/learning-html-css-js#readme"
+  "homepage": "https://github.com/eavelasquez/learning-html-css-js#readme",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
