@@ -35,8 +35,6 @@ ol {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 90px;
-  height: 100vh;
-  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -59,12 +57,12 @@ button {
   bottom: 32px;
   color: #fff;
   cursor: pointer;
-  height: 64px;
+  height: 48px;
   padding: 16px;
   position: fixed;
   right: 32px;
   text-align: center;
-  width: 64px;
+  width: 48px;
 }
 
 button:hover {
@@ -88,10 +86,14 @@ button:focus {
 }
 
 .day-name {
-  background-color: #eee;
+  background: #eee;
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 2px;
   padding: 4px;
   text-align: center;
+}
+
+#next {
+  bottom: 100px;
 }
