@@ -14,6 +14,7 @@ Then open http://localhost:1234 in your browser.
 
 ## Examples
 
+1. [Calendar with i18n](examples/calendar-with-i18n)
 1. [I love it](examples/i-love-it)
 1. [Image Gallery](examples/image-gallery)
 1. [Slider](examples/slider)
