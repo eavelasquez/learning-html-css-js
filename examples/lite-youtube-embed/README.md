@@ -4,7 +4,7 @@ This is an example of the [Lite YouTube Embed](https://github.com/paulirish/lite
 
 ## Preview
 
-<img src="../.github/lite-youtube-embed-preview.png" width="640" alt="Lite YouTube Embed" />
+<img src="../../.github/lite-youtube-embed-preview.png" width="640" alt="Lite YouTube Embed preview" />
 
 ## How to run
 

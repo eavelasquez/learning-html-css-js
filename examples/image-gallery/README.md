@@ -4,7 +4,7 @@ This is an example of an image gallery with a transition effect when the image i
 
 ## Preview
 
-<img src="../.github/image-gallery-preview.gif" width="640" alt="Image Gallery" />
+<img src="../../.github/image-gallery-preview.gif" width="640" alt="Image Gallery preview" />
 
 ## How to run
 

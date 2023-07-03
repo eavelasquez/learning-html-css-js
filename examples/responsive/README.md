@@ -4,7 +4,7 @@ This is an example of the responsive desing using CSS Grid.
 
 ## Preview
 
-<img src="../.github/responsive-preview.gif" width="640" alt="Responsive" />
+<img src="../../.github/responsive-preview.gif" width="640" alt="Responsive preview" />
 
 ## How to run
 

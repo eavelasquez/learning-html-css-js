@@ -4,7 +4,7 @@ This is an example of a calendar with i18n support. It's a calendar built with V
 
 ## Preview
 
-<img src="../.github/calendar-with-i18n-preview.gif" width="640" alt="Calendar with i18n" />
+<img src="../../.github/calendar-with-i18n-preview.gif" width="640" alt="Calendar with i18n preview" />
 
 ## How to run
 

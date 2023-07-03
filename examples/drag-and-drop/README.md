@@ -4,7 +4,7 @@ This example shows how to use the [HTML Drag and Drop API](https://developer.moz
 
 ## Preview
 
-<img src="../.github/drag-and-drop-preview.png" width="640" alt="Drag and Drop" />
+<img src="../../.github/drag-and-drop-preview.png" width="640" alt="Drag and Drop preview" />
 
 ## How to run
 

@@ -4,7 +4,7 @@ This is an example of the *"I love it"* reaction. It's a reaction that can be us
 
 ## Preview
 
-<img src="../.github/i-love-it-preview.gif" width="640" alt="I love it" />
+<img src="../../.github/i-love-it-preview.gif" width="640" alt="I love it preview" />
 
 ## How to run
 

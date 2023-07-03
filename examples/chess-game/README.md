@@ -4,7 +4,7 @@ This is a simple chess game written in [JavaScript](https://developer.mozilla.or
 
 ## Preview
 
-<img src="../.github/chess-game-preview.gif" width="640" alt="Chess Game" />
+<img src="../../.github/chess-game-preview.gif" width="640" alt="Chess Game preview" />
 
 ## How to run
 

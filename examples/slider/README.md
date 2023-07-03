@@ -4,7 +4,7 @@ This is an example of a slider when you slide the image to the left or right.
 
 ## Preview
 
-<img src="../.github/slider-preview.gif" width="640" alt="Slider" />
+<img src="../../.github/slider-preview.gif" width="640" alt="Slider preview" />
 
 ## How to run
 
