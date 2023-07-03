@@ -1,22 +1,15 @@
 {
   "name": "mario-game",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "standard --fix"
-  },
-  "devDependencies": {
-    "standard": "^17.0.0",
-    "vite": "^4.2.0"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "kaboom": "3000.0.0-beta.3"
+  },
+  "devDependencies": {
+    "parcel": "2.9.2"
   }
 }
