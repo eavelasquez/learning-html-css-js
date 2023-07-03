@@ -15,11 +15,11 @@ Then open http://localhost:1234 in your browser.
 ## Examples
 
 1. [Calendar with i18n](examples/calendar-with-i18n)
-1. [Chess game](examples/chess-game)
+1. [Chess Game](examples/chess-game)
 1. [Drag and Drop](examples/drag-and-drop)
 1. [I love it](examples/i-love-it)
 1. [Image Gallery](examples/image-gallery)
 1. [Lite YouTube Embed](examples/lite-youtube-embed)
-1. [Mario game](examples/mario-game)
+1. [Mario Game](examples/mario-game)
 1. [Responsive](examples/responsive)
 1. [Slider](examples/slider)
