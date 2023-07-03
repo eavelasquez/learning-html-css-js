@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lite YouTube Embed</title>
+
+  <style>
+    :root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+
+      color-scheme: light dark;
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #242424;
+
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    div {
+      display: grid;
+      gap: 32px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    div>lite-youtube {
+      aspect-ratio: 16/9;
+      border-radius: 8px;
+    }
+  </style>
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div>
+    <lite-youtube videoid="B1J6Ou4q8vE"></lite-youtube>
+    <lite-youtube videoid="XeSu9fBJ2sI"></lite-youtube>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
