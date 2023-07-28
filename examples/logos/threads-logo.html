@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threads Logo</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      display: grid;
+      place-content: center;
+      min-height: 100vh;
+    }
+
+    svg {
+      width: 48px;
+      fill: none;
+      stroke-width: 30;
+    }
+
+    .base {
+      stroke: #ffffff33;
+    }
+
+    .loading {
+      stroke: #fff;
+      stroke-dasharray: 150, 1503;
+      stroke-dashoffset: 150;
+      animation: loading 3s ease-in-out alternate infinite;
+    }
+
+    @keyframes loading {
+      0% {
+        stroke-dashoffset: 150;
+        stroke-dasharray: 150, 1503;
+      }
+
+      50% {
+        stroke-dashoffset: -1503;
+        stroke-dasharray: 150, 1503;
+      }
+
+      100% {
+        stroke-dashoffset: 150;
+        stroke-dasharray: 1503;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <svg viewBox="0 0 480 480">
+    <defs>
+      <path id="line"
+        d="M368.8,185C333.389941,56.048256,153.068899,61.636278,117.626416,180.724026C87.693304,301.842633,148.038802,398.409215,240,391.791554C297.928967,395.126918,360.971307,354.275929,354.5,298c-4.571108-43.73423-52.99224-70.092851-104.835082-66.649081-40.399667.537209-60.73079,25.465774-56.751019,46.949081-.724438,28.63271,42.067871,40.971392,63.364188,35.198621C285.085536,304.012133,302.273099,283.291174,300.2,240c7.535068-38.669299-20.81016-78.718596-65.699999-72.311938-16.754544,1.042474-32.722718,13.329637-41.586102,24.655939" />
+    </defs>
+    <use class="base" xlink:href="#line" />
+    <use class="loading" xlink:href="#line" />
+  </svg>
+</body>
+
+</html>
